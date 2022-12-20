@@ -1,0 +1,23 @@
+.Join{
+    min-height: 50vh;
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/FDFFE426-0A29-40D5-8E26-C838EB26CA8F");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    //////////////////////////////
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .joinTxt{
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        h2{
+            font-weight: 700;
+        }
+        h4{
+            font-size: 17px;
+        }
+    }
+}

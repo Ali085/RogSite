@@ -1,0 +1,112 @@
+nav{
+    width: 100%;
+    min-height: 60px;
+    background-color: black;
+   
+    .NavDiv{
+        max-width: 95%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        .burger{
+            i{
+                display: none;
+                font-size: 25px;
+                color: white;
+            }
+        }
+        .NavLogo{
+            img{
+                width: 200px
+            };
+        }
+        .NavList{
+            color: white;
+            ul{
+                display: flex;
+                gap: 10px;
+                font-size: 12px;
+                
+            }
+        }
+        .NavSearch{
+            display: flex;
+            align-items: center;
+            svg{
+                width: 100px;
+                color: white;
+            }
+            hr{
+                height: 30px;
+            }
+            i{
+                font-size: 22px;
+                color: white;
+                padding: 10px;
+            }
+
+        }
+    }
+}
+.NavAfter{
+    width: 100%;
+    min-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+@media only screen and (max-width: 900px) {
+    nav{
+        width: 100%;
+        min-height: 60px;
+        background-color: black;
+       
+        .NavDiv{
+            max-width: 95%;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-around;
+            align-items: center;
+            .burger{
+                i{
+                    display: flex;
+                    font-size: 25px;
+                    color: white;
+                }
+            }
+            .NavLogo{
+                img{
+                    width: 160px
+                };
+            }
+            .NavList{
+                display: none;
+            }
+            .NavSearch{
+                display: flex;
+                align-items: center;
+                svg{
+                    width: 100px;
+                    color: white;
+                }
+                hr{
+                    height: 30px;
+                }
+                i{
+                    font-size: 22px;
+                    color: white;
+                    padding: 10px;
+                }
+    
+            }
+        }
+    }
+    .NavAfter{
+        width: 100%;
+        min-height: 30px;
+        text-align: center;
+        color: white;
+        background-color: red;
+    }
+  }

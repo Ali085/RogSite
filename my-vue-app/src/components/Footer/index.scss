@@ -1,0 +1,144 @@
+footer{
+    min-height: 70vh;
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .footerHeadDiv{
+        display: flex;
+        margin: 0 auto;
+        max-width: 97%;
+        color: gray;
+        padding: 50px;
+        justify-content: space-between;
+        .footerHeadList{
+            ul{
+                display: flex;
+                gap: 30px;
+                li{
+                    transition: 1s;
+                }
+            }
+        }
+        .footerIcons{
+           
+            ul{
+                display: flex;
+                gap: 40px;
+                svg{
+                    width: 50px;
+                    height: 30px;
+                    
+                }
+
+            }
+        }
+    }
+    // .FooterHr{
+    //     min-height: 2px;
+    //     max-width: 97%;
+    //     hr{
+    //         color: red;
+    //     }
+    // }
+    .FooterBottomDivv{
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: 0 auto;
+        .BottomLeft{
+            display: flex;
+            gap: 10px;
+            color: gray;
+            align-items: center;
+            svg{
+                width: 25px;
+
+            }
+            p{
+                margin: 0;
+            }
+        }
+        .footerBottomRight{
+            ul{
+                display: flex;
+                gap: 30px;
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+    footer{
+        min-height: 70vh;
+        background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .footerHeadDiv{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            max-width: 97%;
+            color: gray;
+            padding: 50px;
+            justify-content: space-between;
+            align-items: center;
+            .footerHeadList{
+                ul{
+                    display: flex;
+                    gap: 30px;
+                    li{
+                        transition: 1s;
+                    }
+                }
+            }
+            .footerIcons{
+               
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    svg{
+                        width: 50px;
+                        height: 30px;
+                        
+                    }
+    
+                }
+            }
+        }
+        
+        .FooterBottomDivv{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 90%;
+            margin: 0 auto;
+            align-items: center;
+            .BottomLeft{
+                display: flex;
+                gap: 10px;
+                color: gray;
+                align-items: center;
+                svg{
+                    width: 25px;
+    
+                }
+                p{
+                    margin: 0;
+                }
+            }
+            .footerBottomRight{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+        }
+    }
+  }
